@@ -1,0 +1,42 @@
+{
+  "name": "esame_178820",
+  "version": "1.0.0",
+  "description": "Esame di IS2 di Andrea Ferigo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/react-native-app/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndr09/esame_IS2_178820.git"
+  },
+  "author": "Andrea Ferigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndr09/esame_IS2_178820/issues"
+  },
+  "homepage": "https://github.com/ndr09/esame_IS2_178820#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "moment-timezone": "^0.5.14",
+    "mongoose": "^4.13.9",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "windows-1252": "^1.0.0",
+    "xml-js": "^1.6.2"
+  },
+  "devDependencies": {
+    "jest": "^22.0.6"
+  }
+}
