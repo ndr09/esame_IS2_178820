@@ -16,7 +16,7 @@ addUser = function (){
 
     var surname = document.getElementById('addSurname').value;
 	
-    fetch("http://localhost:3000/users/", {
+    fetch("https://esame-is2-178820.herokuapp.com/users/", {
 
               method: "POST",
 
@@ -63,7 +63,7 @@ updateUser = function (){
 
     var surname = document.getElementById('surname').value;
 	
-    fetch("http://localhost:3000/users/", {
+    fetch("https://esame-is2-178820.herokuapp.com/users/", {
 
               method: "PUT",
 
@@ -107,7 +107,7 @@ deleteUser = function (){
     var Email = document.getElementById('delEmail').value;
 	
 	
-    fetch("http://localhost:3000/users/", {
+    fetch("https://esame-is2-178820.herokuapp.com/users/", {
 
               method: "DELETE",
 
